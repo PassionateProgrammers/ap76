@@ -12,7 +12,7 @@ const Footer = () => {
             <ul className='flex flex-col group'>
                 <li className='group-hover:text-black group-hover:cursor-default'><h1 className='inline border-b-2 border-[#791414]'>Social</h1></li>
               <li className='group-hover:text-black pt-4 lg:text-sm'>
-                <a href="/" className='text-gray-500'><FaLinkedin size={30}/></a>
+                <a href="https://www.linkedin.com/company/ap76inc/" target="_blank" rel="noopener noreferrer" className='text-gray-500'><FaLinkedin size={30}/></a>
               </li>
             </ul>
             <ul className='flex flex-col group'>
@@ -37,6 +37,9 @@ const Footer = () => {
             <li className='group-hover:text-black group-hover:cursor-default'><h1 className='inline border-b-2 border-[#791414]'>Contacts</h1></li>
               <li className='pt-4 lg:text-sm group-hover:text-black group-hover:cursor-default'>
                 <p>satish_mysore@yahoo.com</p>
+              </li>
+              <li className='pt-4 lg:text-sm group-hover:text-black group-hover:cursor-default'>
+                <p>brconn76@gmail.com</p>
               </li>
             </ul>
           </div>

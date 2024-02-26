@@ -1,6 +1,8 @@
-import React from 'react'
-import Statue from '../assets/statue-of-liberty.jpg'
-import Flags from '../assets/u-s.jpg'
+import React from 'react';
+import Statue from '../assets/statue-of-liberty.jpg';
+import Flags from '../assets/u-s.jpg';
+import Brenden from '../assets/Brenden.jpeg';
+import Satish from '../assets/Satish.jpeg';
 import { FaLinkedin } from 'react-icons/fa';
 
 const About = () => {
@@ -45,18 +47,24 @@ const About = () => {
         <p className='text-center lg:text-left pb-8'>Leadership</p>
         <div className='flex flex-col md:flex-row space-x-0 md:space-x-8 justify-center items-center'>
         <div className='w-full lg:w-[50%]'>
+          <div className="image-container pb-4">
+            <img className="rounded-full w-32 h-32 border-white border-4" src={Satish} alt="Satish_Mysore" />
+          </div>
           <p className='text-[#791414] pb-4'>SATISH MYSORE</p>
           <div className='h-64 lg:h-auto pb-0 lg:pb-4'>
           <p>A seasoned Chief Executive Officer with a demonstrated history of building value through to liquidity events with several privately held companies. He is skilled in Product Design, Engineering, Computer-Aided Design, and SolidWorks, as well as the economic and political states of numerous countries. He has been married for 28 years, has a grown son, and earned a Master of Science in Industrial Engineering degree from the University of New Hampshire. Satish immigrated to the United States in 1988.</p>
           </div>
-          <a href="/" className='text-gray-500'><FaLinkedin size={30}/></a>
+          <a href="https://www.linkedin.com/in/satish-mysore-58228a/" target="_blank" rel="noopener noreferrer" className='text-gray-500'><FaLinkedin size={30}/></a>
         </div>
         <div className='w-full lg:w-[50%] pt-8 md:pt-0'>
+          <div className="image-container pt-8 pb-4">
+            <img className="rounded-full w-32 h-32 border-white border-4" src={Brenden} alt="Brenden_Connelly" />
+          </div>
           <p className='text-[#791414] pb-4'>BRENDAN CONNELLY</p>
           <div className='h-72 lg:h-auto pb-0 lg:pb-4'>
           <p>Fifteen years of experience as Vice President, wealth advisor and fiduciary with a $4 billion SEC-registered investment advisor. Prior experience includes providing secondary liquidity to private equity and venture capital holdings, as well as hedge fund business development. Currently working in small business succession and acquisition while travelling the country by motor coach with his wife of 30 years. He has three grown children—two adopted—and earned his B.A. in Broadcast Journalism from Central Connecticut State University.</p>
           </div>
-          <a href="/" className='text-gray-500'><FaLinkedin size={30}/></a>
+          <a href="https://www.linkedin.com/in/brendanconnelly/" target="_blank" rel="noopener noreferrer" className='text-gray-500'><FaLinkedin size={30}/></a>
         </div>
         </div>
       </div>

@@ -39,7 +39,7 @@ const Live = () => {
                     <FaShareSquare size={20}/>
                 </button>
                 <div className={`copied-text ${copied ? 'show' : ''}`}>
-                <p className='text-white bg-[#FF0000] p-2'>Copied to clipboard!</p>
+                <p className='text-white bg-[#FF0000] p-1 rounded-sm'>Copied to clipboard!</p>
                 </div>
             </div>
             <div className='flex justify-center items-center py-8'>

@@ -22,7 +22,7 @@ const Home = () => {
         <p className='text-white text-lg pt-10'>Amor Patriae 1776</p>
         <div className='flex justify-between pt-10'>
           <a href="/about" className='text-white px-8 py-4 mr-6 border-2 border-white buttons'>ABOUT US</a>
-          <a href="/mission" className='text-white px-8 py-4 border-2 buttons'>WHAT WE DO</a>
+          <a href="/what-we-do" className='text-white px-8 py-4 border-2 buttons'>WHAT WE DO</a>
         </div>
       </div>
       <div className='flex max-w-[1100px] mx-auto items-center justify-center pb-96 pt-48 lg:pb-0 lg:pt-0'>
@@ -55,7 +55,7 @@ const Home = () => {
             <p className='text-gray-500 text-xs py-4'>AP76.ORG</p>
             <h1 className='text-5xl pb-10 drop-shadow-sm'>America United</h1>
             <p className='text-lg pb-12'>Bridge like-minded non-profit and other organizations for action and impact.</p>
-            <a href="/mission" className='hover:text-white px-8 py-4 text-[#791414] border-2 border-[#791414] hover:bg-[#791414]'>LEARN MORE</a>
+            <a href="/what-we-do" className='hover:text-white px-8 py-4 text-[#791414] border-2 border-[#791414] hover:bg-[#791414]'>LEARN MORE</a>
           </div>
           <div>
             <img className="w-[459px] h-auto" src={veteran} alt="veteran"/>
@@ -69,7 +69,7 @@ const Home = () => {
             <p className='text-gray-500 text-xs py-4'>AP76.ORG</p>
             <h1 className='text-5xl pb-10 drop-shadow-sm'>Gratitude & Service</h1>
             <p className='text-lg pb-12'>We love America and will continue to give back in gratitude and service.</p>
-            <a href="/mission" className='hover:text-white px-8 py-4 text-[#791414] border-2 border-[#791414] hover:bg-[#791414]'>LEARN MORE</a>
+            <a href="/about" className='hover:text-white px-8 py-4 text-[#791414] border-2 border-[#791414] hover:bg-[#791414]'>LEARN MORE</a>
           </div>
         </div>
         <div className='bg-[#791414] w-full h-60 flex flex-col lg:flex-row items-center justify-center py-20'>
