@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/passionateprogrammers.github.io/ap76/static/css/main.0c2fa9e8.css",
-    "main.js": "/passionateprogrammers.github.io/ap76/static/js/main.81e0dd15.js",
-    "static/media/mount-rushmore.jpg": "/passionateprogrammers.github.io/ap76/static/media/mount-rushmore.c9efdbafe7d65fb5bb84.jpg",
-    "static/media/flag-3.jpg": "/passionateprogrammers.github.io/ap76/static/media/flag-3.0a870f19029830616514.jpg",
-    "static/media/veterans2.jpg": "/passionateprogrammers.github.io/ap76/static/media/veterans2.494a1cd470d671ad7dea.jpg",
-    "static/media/veterans.jpg": "/passionateprogrammers.github.io/ap76/static/media/veterans.9fdca50785347d1c76b5.jpg",
-    "static/media/statue-of-liberty.jpg": "/passionateprogrammers.github.io/ap76/static/media/statue-of-liberty.a26972e450b157fbc8af.jpg",
-    "static/media/u-s.jpg": "/passionateprogrammers.github.io/ap76/static/media/u-s.84133400ea974f132ed0.jpg",
-    "static/media/USflag1.jpg": "/passionateprogrammers.github.io/ap76/static/media/USflag1.8ca20b4cff994cfe543d.jpg",
-    "static/media/Brenden.jpeg": "/passionateprogrammers.github.io/ap76/static/media/Brenden.31a6f00273b67001108b.jpeg",
-    "static/media/Satish.jpeg": "/passionateprogrammers.github.io/ap76/static/media/Satish.426c70dce5ffa889d50a.jpeg",
-    "static/media/logo.png": "/passionateprogrammers.github.io/ap76/static/media/logo.81ff9ed71a03289ac664.png",
-    "static/media/logo-300x103.jpeg": "/passionateprogrammers.github.io/ap76/static/media/logo-300x103.58bc3b7a23a2a97016f1.jpeg",
-    "index.html": "/passionateprogrammers.github.io/ap76/index.html",
-    "main.0c2fa9e8.css.map": "/passionateprogrammers.github.io/ap76/static/css/main.0c2fa9e8.css.map",
-    "main.81e0dd15.js.map": "/passionateprogrammers.github.io/ap76/static/js/main.81e0dd15.js.map"
+    "main.css": "/ap76/static/css/main.0c2fa9e8.css",
+    "main.js": "/ap76/static/js/main.cf08ffb7.js",
+    "static/media/mount-rushmore.jpg": "/ap76/static/media/mount-rushmore.c9efdbafe7d65fb5bb84.jpg",
+    "static/media/flag-3.jpg": "/ap76/static/media/flag-3.0a870f19029830616514.jpg",
+    "static/media/veterans2.jpg": "/ap76/static/media/veterans2.494a1cd470d671ad7dea.jpg",
+    "static/media/veterans.jpg": "/ap76/static/media/veterans.9fdca50785347d1c76b5.jpg",
+    "static/media/statue-of-liberty.jpg": "/ap76/static/media/statue-of-liberty.a26972e450b157fbc8af.jpg",
+    "static/media/u-s.jpg": "/ap76/static/media/u-s.84133400ea974f132ed0.jpg",
+    "static/media/USflag1.jpg": "/ap76/static/media/USflag1.8ca20b4cff994cfe543d.jpg",
+    "static/media/Brenden.jpeg": "/ap76/static/media/Brenden.31a6f00273b67001108b.jpeg",
+    "static/media/Satish.jpeg": "/ap76/static/media/Satish.426c70dce5ffa889d50a.jpeg",
+    "static/media/logo.png": "/ap76/static/media/logo.81ff9ed71a03289ac664.png",
+    "static/media/logo-300x103.jpeg": "/ap76/static/media/logo-300x103.58bc3b7a23a2a97016f1.jpeg",
+    "index.html": "/ap76/index.html",
+    "main.0c2fa9e8.css.map": "/ap76/static/css/main.0c2fa9e8.css.map",
+    "main.cf08ffb7.js.map": "/ap76/static/js/main.cf08ffb7.js.map"
   },
   "entrypoints": [
     "static/css/main.0c2fa9e8.css",
-    "static/js/main.81e0dd15.js"
+    "static/js/main.cf08ffb7.js"
   ]
 }
