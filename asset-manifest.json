@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ap76/static/css/main.0c2fa9e8.css",
-    "main.js": "/ap76/static/js/main.3dcb57c1.js",
+    "main.js": "/ap76/static/js/main.7a558839.js",
     "static/media/mount-rushmore.jpg": "/ap76/static/media/mount-rushmore.c9efdbafe7d65fb5bb84.jpg",
     "static/media/flag-3.jpg": "/ap76/static/media/flag-3.0a870f19029830616514.jpg",
     "static/media/veterans2.jpg": "/ap76/static/media/veterans2.494a1cd470d671ad7dea.jpg",
@@ -15,10 +15,10 @@
     "static/media/logo-300x103.jpeg": "/ap76/static/media/logo-300x103.58bc3b7a23a2a97016f1.jpeg",
     "index.html": "/ap76/index.html",
     "main.0c2fa9e8.css.map": "/ap76/static/css/main.0c2fa9e8.css.map",
-    "main.3dcb57c1.js.map": "/ap76/static/js/main.3dcb57c1.js.map"
+    "main.7a558839.js.map": "/ap76/static/js/main.7a558839.js.map"
   },
   "entrypoints": [
     "static/css/main.0c2fa9e8.css",
-    "static/js/main.3dcb57c1.js"
+    "static/js/main.7a558839.js"
   ]
 }
