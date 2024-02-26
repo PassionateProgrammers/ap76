@@ -2,10 +2,11 @@ import {Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import News from './components/News';
-import Mission from './components/Mission';
+import Purpose from './components/Purpose';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Live from './components/articles/Live';
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/news' element={<News />}/>
-        <Route path='/mission' element={<Mission />}/>
+        <Route path='/what-we-do' element={<Purpose />}/>
         <Route path='/about' element={<About />}/>
         <Route path='/contact' element={<Contact />}/>
+        <Route path='/live' element={<Live />}/>
       </Routes>
       <Footer />
     </>

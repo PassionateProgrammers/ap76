@@ -30,7 +30,7 @@ const Navbar = () => {
                 <a href='/news'>News</a>
             </li>
             <li className={location.pathname === '/mission' ? 'active' : ''}>
-                <a href="/mission">Our Mission</a>
+                <a href="/what-we-do">What We Do</a>
             </li>
             <li className={location.pathname === '/about' ? 'active' : ''}>
                 <a href="/about">About</a>
@@ -59,7 +59,7 @@ const Navbar = () => {
                 <a href='/news'>News</a>
             </li>
             <li className={location.pathname === '/mission' ? 'active' : ''}>
-                <a href="/mission">Our Mission</a>
+                <a href="/what-we-do">What We Do</a>
             </li>
             <li className={location.pathname === '/about' ? 'active' : ''}>
                 <a href="/about">About</a>
