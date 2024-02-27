@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className='fixed z-50 text-[#11203F] font-semibold bg-[#f5f5f5] w-full h-[75px] sm:h-[100px] flex justify-between items-center px-8 sm:px-20'>
         <div className='flex items-center'>
-            <a className='flex items-center' href="/">
+            <a className='flex items-center' href="/#/">
                 <img src={Logo} alt='ap76logo' className='w-24 sm:w-36'/>
                 <div className='pl-8 flex flex-col'>
                     <h1 className='text-2xl font-bold'>ap76.org</h1>
