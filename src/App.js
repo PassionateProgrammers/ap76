@@ -15,7 +15,7 @@ function App() {
       <Scroll />
       <Navbar />
       <Routes>
-        <Route exact path='/' element={<Home />}/>
+        <Route path='/' element={<Home />}/>
         <Route path='/news' element={<News />}/>
         <Route path='/what-we-do' element={<Purpose />}/>
         <Route path='/about' element={<About />}/>

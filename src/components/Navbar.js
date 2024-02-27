@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className='fixed z-50 text-[#11203F] font-semibold bg-[#f5f5f5] w-full h-[75px] sm:h-[100px] flex justify-between items-center px-8 sm:px-20'>
         <div className='flex items-center'>
-            <a className='flex items-center' href="/#/">
+            <a className='flex items-center' href="/ap76/#/">
                 <img src={Logo} alt='ap76logo' className='w-24 sm:w-36'/>
                 <div className='pl-8 flex flex-col'>
                     <h1 className='text-2xl font-bold'>ap76.org</h1>
@@ -26,22 +26,22 @@ const Navbar = () => {
         </div>
         <ul className='hidden lg:flex'>
             <li onClick={handleMenuItemClick} className={location.pathname === '/' ? 'active' : ''}>
-                <a href="/#/">Home</a>
+                <a href="/ap76/#/">Home</a>
             </li>
             <li onClick={handleMenuItemClick} className={location.pathname === '/news' ? 'active' : ''}>
-                <a href='/#/news'>News</a>
+                <a href='/ap76/#/news'>News</a>
             </li>
             <li onClick={handleMenuItemClick} className={location.pathname === '/mission' ? 'active' : ''}>
-                <a href="/#/what-we-do">What We Do</a>
+                <a href="/ap76/#/what-we-do">What We Do</a>
             </li>
             <li onClick={handleMenuItemClick} className={location.pathname === '/about' ? 'active' : ''}>
-                <a href="/#/about">About</a>
+                <a href="/ap76/#/about">About</a>
             </li>
             <li onClick={handleMenuItemClick} className={location.pathname === '/contact' ? 'active' : ''}>
-                <a href="/#/contact">Contact</a>
+                <a href="/ap76/#/contact">Contact</a>
             </li>
             <li onClick={handleMenuItemClick}>
-                <a href="/#/">Donate</a>
+                <a href="/ap76/#/">Donate</a>
             </li>
         </ul>
 
@@ -55,22 +55,22 @@ const Navbar = () => {
         {/* mobile menu */}
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-white text-4xl flex flex-col justify-center items-center space-y-8'}>
             <li onClick={handleMenuItemClick}>
-                <a href="/#/">Home</a>
+                <a href="/ap76/#/">Home</a>
             </li>
             <li onClick={handleMenuItemClick} className={location.pathname === '/news' ? 'active' : ''}>
-                <a href='/#/news'>News</a>
+                <a href='/ap76/#/news'>News</a>
             </li>
             <li onClick={handleMenuItemClick} className={location.pathname === '/mission' ? 'active' : ''}>
-                <a href="/#/what-we-do">What We Do</a>
+                <a href="/ap76/#/what-we-do">What We Do</a>
             </li>
             <li onClick={handleMenuItemClick} className={location.pathname === '/about' ? 'active' : ''}>
-                <a href="/#/about">About</a>
+                <a href="/ap76/#/about">About</a>
             </li>
             <li onClick={handleMenuItemClick} className={location.pathname === '/contact' ? 'active' : ''}>
-                <a href="/#/contact">Contact</a>
+                <a href="/ap76/#/contact">Contact</a>
             </li>
             <li onClick={handleMenuItemClick}>
-                <a href="/#/">Donate</a>
+                <a href="/ap76/#/">Donate</a>
             </li>
         </ul>
 

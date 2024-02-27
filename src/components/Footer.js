@@ -5,7 +5,7 @@ import { FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div>
-      <div className='bg-white w-full h-auto lg:h-56 flex flex-col justify-center items-center'>
+      <div className='bg-white w-full px-8 lg:px-0 h-auto lg:h-56 flex flex-col justify-center items-center'>
         <div className='w-[1100px] flex flex-col py-8 lg:flex-row justify-center lg:justify-start items-center'>
           <img className='w-[200px] lg:w-[300px] h-auto' src={logo} alt="mainlogo" />
           <div className='flex justify-center lg:justify-start pt-8 lg:pt-0 space-x-4 lg:ml-20 lg:space-x-20'>
@@ -18,19 +18,19 @@ const Footer = () => {
             <ul className='flex flex-col group'>
             <li className='group-hover:text-black group-hover:cursor-default'><h1 className='inline border-b-2 border-[#791414]'>Explore</h1></li>
               <li className='pt-4 lg:text-sm'>
-                <a href="/#/">Home</a>
+                <a href="/ap76/#/">Home</a>
               </li>
               <li className='pt-2 lg:text-sm'>
-                <a href='/#/news'>News</a>
+                <a href='/ap76/#/news'>News</a>
               </li>
               <li className='pt-2 lg:text-sm'>
-                <a href="/#/what-we-do">What We Do</a>
+                <a href="/ap76/#/what-we-do">What We Do</a>
               </li>
               <li className='pt-2 lg:text-sm'>
-                <a href="/#/about">About</a>
+                <a href="/ap76/#/about">About</a>
               </li>
               <li className='pt-2 lg:text-sm'>
-                <a href="/#/">Donate</a>
+                <a href="/ap76/#/">Donate</a>
               </li>
             </ul>
             <ul className='flex flex-col group'>

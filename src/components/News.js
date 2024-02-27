@@ -7,7 +7,7 @@ const News = () => {
       <div>
         <h1 className='text-center lg:text-left text-4xl md:text-6xl font-bold drop-shadow-sm py-10 lg:py-20'>Latest Updates</h1>
       </div>
-      <a href="/#/live" className='flex-1 overflow-y-auto'>
+      <a href="/ap76/#/live" className='flex-1 overflow-y-auto'>
       <div className='mb-20 w-full h-56 bg-white flex flex-col md:flex-row drop-shadow-lg'>
         <img src={flag} alt="flag" className='md:h-56 md:w-auto w-full'/>
         <div className='md:pl-8 pt-8 lg:pt-4'>
