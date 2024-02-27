@@ -30,9 +30,9 @@ const Live = () => {
           </div>
           <div className='p-8 mb-20 w-full h-screen bg-white flex flex-col'>
             <div className='flex text-sm items-center space-x-2'>
-                <a href='/'><p className='inline border-b-2 border-[#791414] hover:text-[#FF0000]'>Home</p></a>
+                <a href='/#/'><p className='inline border-b-2 border-[#791414] hover:text-[#FF0000]'>Home</p></a>
                 <p>{<FaChevronRight size={12}/>}</p>
-                <a href='/news'><p className='inline border-b-2 border-[#791414] hover:text-[#FF0000]'>News</p></a>
+                <a href='/#/news'><p className='inline border-b-2 border-[#791414] hover:text-[#FF0000]'>News</p></a>
                 <p>{<FaChevronRight size={12}/>}</p>
                 <p>Our New Site Is Now Live!</p>
                 <button onClick={handleShare} className='p-2 hover:text-[#FF0000]'>

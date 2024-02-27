@@ -39,7 +39,7 @@ const About = () => {
         </div>
         <div className='bg-[#791414] w-full h-60 flex flex-col lg:flex-row items-center justify-center py-20'>
             <h1 className='text-4xl lg:text-5xl text-white pb-8 lg:pb-0 lg:mr-20'>Have a Question?</h1>
-            <a href="/contact" className='text-white px-8 py-4 hover:text-black border-2 border-white hover:bg-white'>CONTACT US</a>
+            <a href="/#/contact" className='text-white px-8 py-4 hover:text-black border-2 border-white hover:bg-white'>CONTACT US</a>
         </div>
       <div className='max-w-[1100px] mx-auto py-10 lg:py-20 px-8 lg:px-0'>
         <p className='text-gray-500 text-xs pb-4'>ABOUT US</p>

@@ -24,19 +24,19 @@ const Navbar = () => {
         </div>
         <ul className='hidden lg:flex'>
             <li className={location.pathname === '/' ? 'active' : ''}>
-                <a href="/">Home</a>
+                <a href="/#/">Home</a>
             </li>
             <li className={location.pathname === '/news' ? 'active' : ''}>
-                <a href='/news'>News</a>
+                <a href='/#/news'>News</a>
             </li>
             <li className={location.pathname === '/mission' ? 'active' : ''}>
-                <a href="/what-we-do">What We Do</a>
+                <a href="/#/what-we-do">What We Do</a>
             </li>
             <li className={location.pathname === '/about' ? 'active' : ''}>
-                <a href="/about">About</a>
+                <a href="/#/about">About</a>
             </li>
             <li className={location.pathname === '/contact' ? 'active' : ''}>
-                <a href="/contact">Contact</a>
+                <a href="/#/contact">Contact</a>
             </li>
             <li>
                 <a href="/">Donate</a>
@@ -53,22 +53,22 @@ const Navbar = () => {
         {/* mobile menu */}
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-white text-4xl flex flex-col justify-center items-center space-y-8'}>
             <li>
-                <a href="/">Home</a>
+                <a href="/#/">Home</a>
             </li>
             <li className={location.pathname === '/news' ? 'active' : ''}>
-                <a href='/news'>News</a>
+                <a href='/#/news'>News</a>
             </li>
             <li className={location.pathname === '/mission' ? 'active' : ''}>
-                <a href="/what-we-do">What We Do</a>
+                <a href="/#/what-we-do">What We Do</a>
             </li>
             <li className={location.pathname === '/about' ? 'active' : ''}>
-                <a href="/about">About</a>
+                <a href="/#/about">About</a>
             </li>
             <li className={location.pathname === '/contact' ? 'active' : ''}>
-                <a href="/contact">Contact</a>
+                <a href="/#/contact">Contact</a>
             </li>
             <li>
-                <a href="/">Donate</a>
+                <a href="/#/">Donate</a>
             </li>
         </ul>
 

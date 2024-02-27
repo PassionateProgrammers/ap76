@@ -45,7 +45,7 @@ const Purpose = () => {
             <p className='text-gray-500 text-xs py-4'>AP76.ORG</p>
             <h1 className='text-5xl pb-10 drop-shadow-sm'>Since 2012</h1>
             <p className='text-lg pb-12'>We have been developing programs and initiatives that bring closer working relationships with local elected leaders, community member, and stakeholders.</p>
-            <a href="/about" className='hover:text-white px-8 py-4 text-[#791414] border-2 border-[#791414] hover:bg-[#791414]'>LEARN MORE</a>
+            <a href="/#/about" className='hover:text-white px-8 py-4 text-[#791414] border-2 border-[#791414] hover:bg-[#791414]'>LEARN MORE</a>
           </div>
         </div>
     </div>
@@ -74,7 +74,7 @@ const Purpose = () => {
     </div>
         <div className='bg-[#791414] w-full h-60 flex flex-col lg:flex-row items-center justify-center py-20'>
             <h1 className='text-4xl lg:text-5xl text-white pb-8 lg:pb-0 lg:mr-20'>Start a conversation</h1>
-            <a href="/contact" className='text-white px-8 py-4 hover:text-black border-2 border-white hover:bg-white'>CONTACT US</a>
+            <a href="/#/contact" className='text-white px-8 py-4 hover:text-black border-2 border-white hover:bg-white'>CONTACT US</a>
         </div>
     </div>
   );
