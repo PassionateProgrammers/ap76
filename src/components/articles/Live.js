@@ -26,7 +26,7 @@ const Live = () => {
 
     return (
         <div className='pt-[80px] max-w-[1100px] mx-auto'>
-          <div className='my-20'>
+          <div className='py-0 md:my-20'>
           </div>
           <div className='p-8 mb-20 w-full h-screen bg-white flex flex-col'>
             <div className='flex text-sm items-center space-x-2'>

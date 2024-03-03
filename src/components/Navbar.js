@@ -14,7 +14,7 @@ const Navbar = () => {
     const handleMenuItemClick = () => setNav(false);
 
   return (
-    <div className='fixed z-50 text-[#11203F] font-semibold bg-[#f5f5f5] w-full h-[75px] sm:h-[100px] flex justify-between items-center px-8 sm:px-20'>
+    <div className='fixed z-50 text-[#11203F] font-semibold bg-[#f5f5f5] w-full h-[75px] sm:h-[100px] flex justify-between items-center px-4 md:px-20'>
         <div className='flex items-center'>
             <a className='flex items-center' href="/ap76/#/">
                 <img src={Logo} alt='ap76logo' className='w-24 sm:w-36'/>
@@ -46,7 +46,7 @@ const Navbar = () => {
         </ul>
 
         {/* hamburger */}
-        <div className='md:hidden z-50'>
+        <div className='lg:hidden z-50'>
             <button onClick={handleClick}>
                 {!nav ? <FaBars size={20} /> : <FaTimes size={20}/>}
             </button>

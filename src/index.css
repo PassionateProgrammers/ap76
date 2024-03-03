@@ -9,6 +9,7 @@
         font-family: 'Roboto', sans-serif;
         @apply text-black;
         background-color: #f5f5f5;
+        overflow-x: hidden;
     }
     li {
         @apply px-4;
@@ -51,4 +52,8 @@ li:hover {
     .stars {
         display: none;
      }
+    }
+
+ .shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
     }
