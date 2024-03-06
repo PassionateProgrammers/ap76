@@ -30,16 +30,13 @@ const Footer = () => {
                 <a href="/ap76/#/about">About</a>
               </li>
               <li className='pt-2 lg:text-sm'>
-                <a href="/ap76/#/">Donate</a>
+                <a href="https://buy.stripe.com/test_00g6re1fl3kdbLy144">Donate</a>
               </li>
             </ul>
             <ul className='flex flex-col group'>
             <li className='group-hover:text-black group-hover:cursor-default'><h1 className='inline border-b-2 border-[#791414]'>Contacts</h1></li>
               <li className='pt-4 lg:text-sm group-hover:text-black group-hover:cursor-default'>
-                <p>satish_mysore@yahoo.com</p>
-              </li>
-              <li className='pt-4 lg:text-sm group-hover:text-black group-hover:cursor-default'>
-                <p>brconn76@gmail.com</p>
+                <p>support@ap76.org</p>
               </li>
             </ul>
           </div>

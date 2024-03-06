@@ -41,7 +41,7 @@ const Navbar = () => {
                 <a href="/ap76/#/contact">Contact</a>
             </li>
             <li onClick={handleMenuItemClick}>
-                <a href="/ap76/#/">Donate</a>
+                <a href="https://buy.stripe.com/test_00g6re1fl3kdbLy144">Donate</a>
             </li>
         </ul>
 
@@ -70,7 +70,7 @@ const Navbar = () => {
                 <a href="/ap76/#/contact">Contact</a>
             </li>
             <li onClick={handleMenuItemClick}>
-                <a href="/ap76/#/">Donate</a>
+                <a href="https://buy.stripe.com/test_00g6re1fl3kdbLy144">Donate</a>
             </li>
         </ul>
 
