@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ap76/static/css/main.dfa4ed3a.css",
-    "main.js": "/ap76/static/js/main.bc9cc41f.js",
+    "main.css": "/ap76/static/css/main.e0604bf9.css",
+    "main.js": "/ap76/static/js/main.faf289e2.js",
     "static/media/mount-rushmore.jpg": "/ap76/static/media/mount-rushmore.c9efdbafe7d65fb5bb84.jpg",
     "static/media/flag-3.jpg": "/ap76/static/media/flag-3.0a870f19029830616514.jpg",
     "static/media/veterans2.jpg": "/ap76/static/media/veterans2.494a1cd470d671ad7dea.jpg",
@@ -14,11 +14,11 @@
     "static/media/logo.png": "/ap76/static/media/logo.81ff9ed71a03289ac664.png",
     "static/media/logo-300x103.jpeg": "/ap76/static/media/logo-300x103.58bc3b7a23a2a97016f1.jpeg",
     "index.html": "/ap76/index.html",
-    "main.dfa4ed3a.css.map": "/ap76/static/css/main.dfa4ed3a.css.map",
-    "main.bc9cc41f.js.map": "/ap76/static/js/main.bc9cc41f.js.map"
+    "main.e0604bf9.css.map": "/ap76/static/css/main.e0604bf9.css.map",
+    "main.faf289e2.js.map": "/ap76/static/js/main.faf289e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfa4ed3a.css",
-    "static/js/main.bc9cc41f.js"
+    "static/css/main.e0604bf9.css",
+    "static/js/main.faf289e2.js"
   ]
 }
