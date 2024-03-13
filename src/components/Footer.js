@@ -18,16 +18,16 @@ const Footer = () => {
             <ul className='flex flex-col group'>
             <li className='group-hover:text-black group-hover:cursor-default'><h1 className='inline border-b-2 border-[#791414]'>Explore</h1></li>
               <li className='pt-4 lg:text-sm'>
-                <a href="/ap76/#/">Home</a>
+                <a href="/">Home</a>
               </li>
               <li className='pt-2 lg:text-sm'>
-                <a href='/ap76/#/news'>News</a>
+                <a href='/news'>News</a>
               </li>
               <li className='pt-2 lg:text-sm'>
-                <a href="/ap76/#/what-we-do">What We Do</a>
+                <a href="/what-we-do">What We Do</a>
               </li>
               <li className='pt-2 lg:text-sm'>
-                <a href="/ap76/#/about">About</a>
+                <a href="/about">About</a>
               </li>
               <li className='pt-2 lg:text-sm'>
                 <a href="https://buy.stripe.com/test_00g6re1fl3kdbLy144">Donate</a>

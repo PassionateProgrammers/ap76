@@ -7,12 +7,10 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Live from './components/articles/Live';
-import Scroll from './components/Scroll';
 
 function App() {
   return (
     <>
-      <Scroll />
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />}/>
