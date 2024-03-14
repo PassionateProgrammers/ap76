@@ -30,7 +30,7 @@ const Footer = () => {
                 <a href="/about">About</a>
               </li>
               <li className='pt-2 lg:text-sm'>
-                <a href="https://buy.stripe.com/test_00g6re1fl3kdbLy144">Donate</a>
+                <a href="https://buy.stripe.com/cN22c89EXfre8fK7ss">Donate</a>
               </li>
             </ul>
             <ul className='flex flex-col group'>

@@ -23,7 +23,7 @@ const About = () => {
         <h1 className='text-white text-4xl lg:text-6xl font-bold text-center pt-8'>We love America</h1>
         <p className='text-white text-lg pt-10'>We're led by Americans who've been blessed by this place. We're committed to giving back in gratitude for our history and the promise of leaving it better than we found it.</p>
       </div>
-        <div className='px-8 lg:px-0 mt-8 lg:mt-36 pt-8 md:pt-36 lg:pt-10 pb-12 lg:pb-20 flex flex-col lg:flex-row justify-center items-center lg:space-x-20'>
+        <div className='px-8 lg:px-0 mt-24 lg:mt-36 pt-8 md:pt-36 lg:pt-10 pb-12 lg:pb-20 flex flex-col lg:flex-row justify-center items-center lg:space-x-20'>
           <div className='shadow-xl shadow-[#040c166a]'>
             <img className="w-full md:w-[600px] h-auto" src={Flags} alt="usflags"/>
           </div>
