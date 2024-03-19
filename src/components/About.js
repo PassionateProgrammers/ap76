@@ -41,6 +41,7 @@ const About = () => {
             <h1 className='text-4xl lg:text-5xl text-white pb-8 lg:pb-0 lg:mr-20'>Have a Question?</h1>
             <a href="/contact" className='text-white px-8 py-4 hover:text-black border-2 border-white hover:bg-white'>CONTACT US</a>
         </div>
+      <section id='founders'>
       <div className='max-w-[1100px] mx-auto py-10 lg:py-20 px-8 lg:px-0'>
         <p className='text-gray-500 text-xs pb-4'>ABOUT US</p>
         <h1 className='text-center lg:text-left text-5xl pb-4 drop-shadow-sm'>Meet Our Team</h1>
@@ -68,6 +69,7 @@ const About = () => {
         </div>
         </div>
       </div>
+      </section>
     </div>
   )
 }

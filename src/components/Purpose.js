@@ -2,6 +2,7 @@ import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import Flag3 from '../assets/flag-3.jpg';
 import Rushmore from '../assets/mount-rushmore.jpg';
+import ScrollToSection from './Scroll';
 
 const Purpose = () => {
 
@@ -49,28 +50,23 @@ const Purpose = () => {
           </div>
         </div>
     </div>
-    <div className='max-w-[1100px] mx-auto p-8 lg:pt-20'>   
+    <div className='max-w-[1100px] mx-auto p-8 pb-0 lg:p-0 lg:pt-20'>
         <p className='text-gray-500 text-xs py-4'>AP76.ORG</p>
-        <h1 className='text-2xl lg:text-4xl pb-10 drop-shadow-sm'>Mission Statement: Social exchange to invigorate American values</h1>
-    </div>
-    <div className='flex flex-col lg:flex-row justify-center items-center pb-28'>
-      <div>
-        <img className="w-[459px] h-auto" src={Rushmore} alt="mtrushmore"/>
-      </div>
-    <div className='stars flex flex-col space-y-20 pl-12 pt-12'>
-        <div className='flex justify-center items-center h-12 w-12 bg-red-500 rounded-full'>
-          <FaStar size={20} color='white' />
+        <h1 className='text-2xl lg:text-4xl pb-10 lg:pb-16 drop-shadow-sm'>Mission Statement: Social exchange to invigorate American values</h1>
+        <div className='flex flex-col lg:flex-row-reverse justify-center lg:justify-end items-center space-x-8 lg:space-x-0 pb-28'>
+          <div>
+            <img className="w-[459px] h-auto" src={Rushmore} alt="mtrushmore"/>
+          </div>
+          <div className='flex flex-col max-w-[550px] text-center lg:text-left pt-12 lg:pt-0 pl-4 pr-4 lg:pr-16 lg:pl-0'>
+            <div className='text-2xl inline-block border-b-2 border-[#791414] max-w-36'>Who We Are</div>   
+            <p className='text-lg pt-4'>We're led by Americans who've been blessed by this place.</p>
+            <span className='flex justify-center md:justify-start text-center py-8'>
+            <ScrollToSection to="/about" sectionId="founders" className='hover:text-white px-8 py-4 text-[#791414] border-2 border-[#791414] hover:bg-[#791414]'>OUR TEAM</ScrollToSection>
+            </span>
+            <div className='text-2xl inline-block border-b-2 border-[#791414] max-w-36'>What We Do</div>   
+            <p className='text-lg pt-4'>We unite, assist and bring many communities closer.</p>
+          </div>
         </div>
-        <div className='flex justify-center items-center h-12 w-12 bg-red-500 rounded-full'>
-          <FaStar size={20} color='white' />
-        </div>
-    </div>
-      <div className='flex flex-col max-w-[550px] text-center lg:text-left pt-12 pl-4 pr-4 md:pr-0'>
-        <div className='text-2xl inline-block border-b-2 border-[#791414] lg:border-none max-w-36'>Our Mission</div>   
-        <p className='text-lg pb-16 pt-4 lg:pt-0'>To unite, assist and bring many communities closer.</p>
-        <div className='text-2xl inline-block border-b-2 border-[#791414] lg:border-none max-w-36'>Our Team</div>   
-        <p className='text-lg pt-4 lg:pt-0'>We're led by Americans who've been blessed by this place.</p>
-      </div>
     </div>
         <div className='bg-[#791414] w-full h-60 flex flex-col lg:flex-row items-center justify-center py-20'>
             <h1 className='text-4xl lg:text-5xl text-white pb-8 lg:pb-0 lg:mr-20'>Start a conversation</h1>
