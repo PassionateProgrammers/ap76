@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/logo-300x103.jpeg';
-import { FaLinkedin } from 'react-icons/fa';
+import x from '../assets/x-twitter.svg'
+import { FaLinkedin, FaFacebook } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -13,6 +14,14 @@ const Footer = () => {
                 <li className='group-hover:text-black group-hover:cursor-default'><h1 className='inline border-b-2 border-[#791414]'>Social</h1></li>
               <li className='group-hover:text-black pt-4 lg:text-sm'>
                 <a href="https://www.linkedin.com/company/ap76inc/" target="_blank" rel="noopener noreferrer" className='text-gray-500'><FaLinkedin size={30}/></a>
+              </li>
+              <li className='group-hover:text-black pt-4 lg:text-sm'>
+                <a href="https://www.facebook.com/people/AP76/61557181844602/" target="_blank" rel="noopener noreferrer" className='text-gray-500'><FaFacebook size={30}/></a>
+              </li>
+              <li className='group-hover:text-black pt-4 lg:text-sm'>
+                <a href="https://x.com/SupportAp76?s=20" target="_blank" rel="noopener noreferrer" className='text-gray-500'>
+                  <img src={x} alt='x-logo'/>
+                </a>
               </li>
             </ul>
             <ul className='flex flex-col group'>
@@ -29,9 +38,9 @@ const Footer = () => {
               <li className='pt-2 lg:text-sm'>
                 <a href="/about">About</a>
               </li>
-              <li className='pt-2 lg:text-sm'>
-                <a href="https://buy.stripe.com/cN22c89EXfre8fK7ss">Donate</a>
-              </li>
+              <li className="pt-4 lg:text-sm">
+                <a href="https://buy.stripe.com/cN22c89EXfre8fK7ss" className="rounded-full bg-[#050095] hover:bg-[#04005c] text-white px-4 py-2">Donate</a>
+            </li>
             </ul>
             <ul className='flex flex-col group'>
             <li className='group-hover:text-black group-hover:cursor-default'><h1 className='inline border-b-2 border-[#791414]'>Contacts</h1></li>

@@ -1,9 +1,13 @@
 import React from 'react';
 import rushmore from '../assets/mount-rushmore.jpg';
+import { Helmet } from 'react-helmet';
 
 const Contact = () => {
   return (
     <div className='pt-[80px] flex justify-center items-center relative'>
+      <Helmet>
+        <title>Contact</title>
+      </Helmet>
       <div
         className='absolute inset-0 bg-[#FF0000] bg-cover bg-no-repeat bg-center'
         style={{

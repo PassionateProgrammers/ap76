@@ -4,10 +4,14 @@ import Flags from '../assets/u-s.jpg';
 import Brenden from '../assets/Brenden.jpeg';
 import Satish from '../assets/Satish.jpeg';
 import { FaLinkedin } from 'react-icons/fa';
+import { Helmet } from 'react-helmet';
 
 const About = () => {
   return (
     <div className='pt-[80px]'>
+      <Helmet>
+        <title>About</title>
+      </Helmet>
       <div className='bg-[#00A4EF] inset-0 absolute bg-cover bg-no-repeat bg-center'
       style={{
         backgroundImage: `url(${Statue})`,

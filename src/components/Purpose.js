@@ -3,6 +3,7 @@ import { FaStar } from 'react-icons/fa';
 import Flag3 from '../assets/flag-3.jpg';
 import Rushmore from '../assets/mount-rushmore.jpg';
 import ScrollToSection from './Scroll';
+import { Helmet } from 'react-helmet';
 
 const Purpose = () => {
 
@@ -17,6 +18,9 @@ const Purpose = () => {
 
   return (
     <div>
+    <Helmet>
+      <title>What We Do</title>
+    </Helmet>
     <div className='pt-[80px] max-w-[1100px] mx-auto flex flex-col min-h-screen pb-[1300px] md:pb-20 lg:pb-20 px-8'>
       <div>
         <h1 className='text-center lg:text-left text-4xl md:text-6xl font-bold drop-shadow-sm py-10 lg:py-20'>What We Do</h1>

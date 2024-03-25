@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import Logo from '../assets/logo.png';
 import {useLocation} from 'react-router-dom';
-import {FaBars, FaTimes} from 'react-icons/fa'
+import {FaBars, FaTimes, FaLinkedin, FaFacebook } from 'react-icons/fa'
+import x from '../assets/x-mobile.svg'
 
 const Navbar = () => {
 
@@ -41,7 +42,7 @@ const Navbar = () => {
                 <a href="/contact">Contact</a>
             </li>
             <li onClick={handleMenuItemClick}>
-                <a href="https://buy.stripe.com/cN22c89EXfre8fK7ss">Donate</a>
+                <a href="https://buy.stripe.com/cN22c89EXfre8fK7ss" className="rounded-full bg-[#050095] hover:bg-[#04005c] text-white px-4 py-2">Donate</a>
             </li>
         </ul>
 
@@ -69,8 +70,16 @@ const Navbar = () => {
             <li onClick={handleMenuItemClick} className={location.pathname === '/contact' ? 'active' : ''}>
                 <a href="/contact">Contact</a>
             </li>
-            <li onClick={handleMenuItemClick}>
-                <a href="https://buy.stripe.com/cN22c89EXfre8fK7ss">Donate</a>
+            <li onClick={handleMenuItemClick} className="py-2">
+                <a href="https://buy.stripe.com/cN22c89EXfre8fK7ss" className="rounded-full bg-[#050095] hover:bg-[#04005c] text-white px-8 py-4">Donate</a>
+            </li>
+            <li><h1 className='text-[#791414]'>Follow Us On:</h1></li>
+            <li className='flex flex-row space-x-2 pb-8'>
+                <a href="https://www.linkedin.com/company/ap76inc/" target="_blank" rel="noopener noreferrer" className='text-[#791414]'><FaLinkedin size={80}/></a>
+                <a href="https://www.facebook.com/people/AP76/61557181844602/" target="_blank" rel="noopener noreferrer" className='text-[#791414]'><FaFacebook size={80}/></a>
+                <a href="https://x.com/SupportAp76?s=20" target="_blank" rel="noopener noreferrer" className='text-[#791414]'>
+                  <img src={x} alt='x-logo'/>
+                </a>
             </li>
         </ul>
 
